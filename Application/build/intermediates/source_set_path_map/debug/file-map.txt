@@ -1,0 +1,13 @@
+com.example.android.camera2basic.Application-appcompat-v7-27.0.2-0 /home/zzh/.gradle/caches/transforms-3/3be455d4391c0949dad914895d145c7d/transformed/appcompat-v7-27.0.2/res
+com.example.android.camera2basic.Application-support-compat-27.0.2-1 /home/zzh/.gradle/caches/transforms-3/50bcb880ca46306a76c9d9d757a8c8d5/transformed/support-compat-27.0.2/res
+com.example.android.camera2basic.Application-support-media-compat-27.0.2-2 /home/zzh/.gradle/caches/transforms-3/6ffcde4beeec57d7b42b3e03d0aed767/transformed/support-media-compat-27.0.2/res
+com.example.android.camera2basic.Application-cardview-v7-27.0.2-3 /home/zzh/.gradle/caches/transforms-3/8fcb6b3030141e866abb314d2eba4e07/transformed/cardview-v7-27.0.2/res
+com.example.android.camera2basic.Application-pngs-4 /home/zzh/work/demos/camera/android-Camera2Basic/Application/build/generated/res/pngs/debug
+com.example.android.camera2basic.Application-resValues-5 /home/zzh/work/demos/camera/android-Camera2Basic/Application/build/generated/res/resValues/debug
+com.example.android.camera2basic.Application-mergeDebugResources-6 /home/zzh/work/demos/camera/android-Camera2Basic/Application/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.android.camera2basic.Application-mergeDebugResources-7 /home/zzh/work/demos/camera/android-Camera2Basic/Application/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.android.camera2basic.Application-merged_res-8 /home/zzh/work/demos/camera/android-Camera2Basic/Application/build/intermediates/merged_res/debug
+com.example.android.camera2basic.Application-common-9 /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/common/res
+com.example.android.camera2basic.Application-debug-10 /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/debug/res
+com.example.android.camera2basic.Application-main-11 /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/res
+com.example.android.camera2basic.Application-template-12 /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/template/res

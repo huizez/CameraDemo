@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:18:1-40:12
+INJECTED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:18:1-40:12
+MERGED from [com.android.support:support-v13:27.0.2] /home/zzh/.gradle/caches/transforms-3/119137c152358b95f8778c1084fc736a/transformed/support-v13-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/zzh/.gradle/caches/transforms-3/c437aaa5054423f3a3e8571230a803b1/transformed/support-v4-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/zzh/.gradle/caches/transforms-3/8fcb6b3030141e866abb314d2eba4e07/transformed/cardview-v7-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/zzh/.gradle/caches/transforms-3/3be455d4391c0949dad914895d145c7d/transformed/appcompat-v7-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/zzh/.gradle/caches/transforms-3/6ffcde4beeec57d7b42b3e03d0aed767/transformed/support-media-compat-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/zzh/.gradle/caches/transforms-3/039893a37a450b37e2326555eaff3191/transformed/support-fragment-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/zzh/.gradle/caches/transforms-3/0807b065ae6629b40ef4be5ef711ea73/transformed/support-core-utils-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/zzh/.gradle/caches/transforms-3/414c92f8779d32a5dc9628173c9d068a/transformed/animated-vector-drawable-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/zzh/.gradle/caches/transforms-3/476c9fced2c7c7844fe7920ead2ce81b/transformed/support-core-ui-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/zzh/.gradle/caches/transforms-3/1585ac66f01125e77dd7a62939f78522/transformed/support-vector-drawable-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/zzh/.gradle/caches/transforms-3/50bcb880ca46306a76c9d9d757a8c8d5/transformed/support-compat-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/zzh/.gradle/caches/transforms-3/eefd0bf76c916a9a864366d2a9f5fdca/transformed/runtime-1.0.3/AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:18:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:20:5-65
+	android:name
+		ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:20:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:22:5-60
+	android:name
+		ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:22:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:23:5-70
+	android:name
+		ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:23:19-67
+application
+ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:25:5-38:19
+INJECTED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:25:5-38:19
+	android:extractNativeLibs
+		INJECTED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:26:9-41
+	android:icon
+		ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:27:9-45
+	android:allowBackup
+		ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:25:18-44
+	android:theme
+		ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:28:9-45
+activity#com.example.android.camera2basic.CameraActivity
+ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:30:9-37:20
+	android:label
+		ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:31:19-51
+	android:exported
+		ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:30:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:33:13-36:29
+action#android.intent.action.MAIN
+ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:35:27-74
+uses-sdk
+INJECTED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+INJECTED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] /home/zzh/.gradle/caches/transforms-3/119137c152358b95f8778c1084fc736a/transformed/support-v13-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /home/zzh/.gradle/caches/transforms-3/119137c152358b95f8778c1084fc736a/transformed/support-v13-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/zzh/.gradle/caches/transforms-3/c437aaa5054423f3a3e8571230a803b1/transformed/support-v4-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/zzh/.gradle/caches/transforms-3/c437aaa5054423f3a3e8571230a803b1/transformed/support-v4-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/zzh/.gradle/caches/transforms-3/8fcb6b3030141e866abb314d2eba4e07/transformed/cardview-v7-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/zzh/.gradle/caches/transforms-3/8fcb6b3030141e866abb314d2eba4e07/transformed/cardview-v7-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/zzh/.gradle/caches/transforms-3/3be455d4391c0949dad914895d145c7d/transformed/appcompat-v7-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/zzh/.gradle/caches/transforms-3/3be455d4391c0949dad914895d145c7d/transformed/appcompat-v7-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/zzh/.gradle/caches/transforms-3/6ffcde4beeec57d7b42b3e03d0aed767/transformed/support-media-compat-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/zzh/.gradle/caches/transforms-3/6ffcde4beeec57d7b42b3e03d0aed767/transformed/support-media-compat-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/zzh/.gradle/caches/transforms-3/039893a37a450b37e2326555eaff3191/transformed/support-fragment-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/zzh/.gradle/caches/transforms-3/039893a37a450b37e2326555eaff3191/transformed/support-fragment-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/zzh/.gradle/caches/transforms-3/0807b065ae6629b40ef4be5ef711ea73/transformed/support-core-utils-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/zzh/.gradle/caches/transforms-3/0807b065ae6629b40ef4be5ef711ea73/transformed/support-core-utils-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/zzh/.gradle/caches/transforms-3/414c92f8779d32a5dc9628173c9d068a/transformed/animated-vector-drawable-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/zzh/.gradle/caches/transforms-3/414c92f8779d32a5dc9628173c9d068a/transformed/animated-vector-drawable-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/zzh/.gradle/caches/transforms-3/476c9fced2c7c7844fe7920ead2ce81b/transformed/support-core-ui-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/zzh/.gradle/caches/transforms-3/476c9fced2c7c7844fe7920ead2ce81b/transformed/support-core-ui-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/zzh/.gradle/caches/transforms-3/1585ac66f01125e77dd7a62939f78522/transformed/support-vector-drawable-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/zzh/.gradle/caches/transforms-3/1585ac66f01125e77dd7a62939f78522/transformed/support-vector-drawable-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/zzh/.gradle/caches/transforms-3/50bcb880ca46306a76c9d9d757a8c8d5/transformed/support-compat-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/zzh/.gradle/caches/transforms-3/50bcb880ca46306a76c9d9d757a8c8d5/transformed/support-compat-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/zzh/.gradle/caches/transforms-3/eefd0bf76c916a9a864366d2a9f5fdca/transformed/runtime-1.0.3/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/zzh/.gradle/caches/transforms-3/eefd0bf76c916a9a864366d2a9f5fdca/transformed/runtime-1.0.3/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml

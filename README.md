@@ -1,2 +1,0 @@
-# CameraDemo
-Android CameraDemo

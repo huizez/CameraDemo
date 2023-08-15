@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2014 The Android Open Source Project
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9     http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.camera2basic" >
+19
+20    <uses-sdk
+21        android:minSdkVersion="21"
+22        android:targetSdkVersion="33" />
+23
+24    <uses-permission android:name="android.permission.CAMERA" />
+24-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:20:5-65
+24-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:20:22-62
+25
+26    <uses-feature android:name="android.hardware.camera" />
+26-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:22:5-60
+26-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:22:19-57
+27    <uses-feature android:name="android.hardware.camera.autofocus" />
+27-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:23:5-70
+27-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:23:19-67
+28
+29    <application
+29-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:25:5-38:19
+30        android:allowBackup="true"
+30-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:25:18-44
+31        android:debuggable="true"
+32        android:extractNativeLibs="true"
+33        android:icon="@drawable/ic_launcher"
+33-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:27:9-45
+34        android:label="@string/app_name"
+34-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:26:9-41
+35        android:testOnly="true"
+36        android:theme="@style/MaterialTheme" >
+36-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:28:9-45
+37        <activity
+37-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:30:9-37:20
+38            android:name="com.example.android.camera2basic.CameraActivity"
+38-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:30:19-49
+39            android:exported="true"
+39-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:32:13-36
+40            android:label="@string/app_name" >
+40-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:31:19-51
+41            <intent-filter>
+41-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:33:13-36:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:34:17-69
+42-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:34:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:35:17-77
+44-->/home/zzh/work/demos/camera/android-Camera2Basic/Application/src/main/AndroidManifest.xml:35:27-74
+45            </intent-filter>
+46        </activity>
+47    </application>
+48
+49</manifest>

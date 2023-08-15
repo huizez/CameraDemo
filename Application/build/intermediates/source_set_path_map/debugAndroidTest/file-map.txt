@@ -1,0 +1,4 @@
+com.example.android.camera2basic.test.Application-androidTest-0 /home/zzh/work/demos/camera/android-Camera2Basic/Application/build/generated/res/resValues/androidTest/debug
+com.example.android.camera2basic.test.Application-mergeDebugAndroidTestResources-1 /home/zzh/work/demos/camera/android-Camera2Basic/Application/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.android.camera2basic.test.Application-mergeDebugAndroidTestResources-2 /home/zzh/work/demos/camera/android-Camera2Basic/Application/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.android.camera2basic.test.Application-merged_res-3 /home/zzh/work/demos/camera/android-Camera2Basic/Application/build/intermediates/merged_res/debugAndroidTest

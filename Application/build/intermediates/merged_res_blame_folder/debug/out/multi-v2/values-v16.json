@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.android.camera2basic.Application-mergeDebugResources-6:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/zzh/.gradle/caches/transforms-3/3be455d4391c0949dad914895d145c7d/transformed/appcompat-v7-27.0.2/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/zzh/.gradle/caches/transforms-3/50bcb880ca46306a76c9d9d757a8c8d5/transformed/support-compat-27.0.2/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}
